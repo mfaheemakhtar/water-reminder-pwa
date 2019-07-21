@@ -1,18 +1,14 @@
-import Button from "@material/react-button";
+import { TopAppBarFixedAdjust } from "@material/react-top-app-bar";
 import React, { Component } from "react";
 import "./App.scss";
+import TopNavBar from "./components/TopNavBar";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Button
-          raised
-          className="button-alternate"
-          onClick={() => console.log("clicked!")}
-        >
-          Click Me!
-        </Button>
+        <TopNavBar onMenuClick={() => {}} title="Water Reminder App" />
+        <TopAppBarFixedAdjust>App content here</TopAppBarFixedAdjust>
       </div>
     );
   }
