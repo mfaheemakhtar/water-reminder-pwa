@@ -7,10 +7,10 @@ import "@material/react-drawer/index.scss";
 import React from "react";
 
 function DrawerComponent(props) {
-  const { children, title } = props;
+  const { children, onClose, open, title } = props;
 
   return (
-    <Drawer>
+    <Drawer modal onClose={onClose} open={open}>
       <DrawerHeader>
         <DrawerTitle tag="h2">{title}</DrawerTitle>
       </DrawerHeader>
