@@ -1182,6 +1182,11 @@
     "@material/theme" "^0.41.0"
     "@material/typography" "^0.41.0"
 
+"@material/layout-grid@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@material/layout-grid/-/layout-grid-0.41.0.tgz#2e7d3be76313e0684d573b10c2c6a88b3230d251"
+  integrity sha512-Sa5RNoTGgfIojqJ9E94p7/k11V6q/tGk7HwKi4AQNAPjxield0zcl3G/SbsSb8YSHoK+D+7OXDN+n11x6EqF7g==
+
 "@material/list@^1.0.0":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@material/list/-/list-1.1.1.tgz#296ed85ae3585af1749462e5bafd617d5675e85e"
@@ -1251,6 +1256,14 @@
     "@material/list" "^2.3.0"
     classnames "^2.2.6"
     focus-trap "^5.0.0"
+
+"@material/react-layout-grid@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@material/react-layout-grid/-/react-layout-grid-0.15.0.tgz#598cdebc4c8b311a7132529327b70bc347c41a5f"
+  integrity sha512-vxQSwLddotxhzoq1gFmlvqvfsc1323dcweCAKOEurNKV1cXpgR87D3BZrugROG5a0n0tTexejmI63RpHX2CzJw==
+  dependencies:
+    "@material/layout-grid" "^0.41.0"
+    classnames "^2.2.6"
 
 "@material/react-list@^0.14.1":
   version "0.14.1"
