@@ -1315,6 +1315,14 @@
     "@material/top-app-bar" "^1.1.0"
     classnames "^2.2.6"
 
+"@material/react-typography@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@material/react-typography/-/react-typography-0.15.0.tgz#7e6f36058a1b88a1d0995b600b64803b4dca4fbb"
+  integrity sha512-W7junmTxVxxQ5sMSW6YMhF4ZgLmHOAqEa88PCmmioMD8lOX0Bt5a0DY1DiBwbxUqZps/vwqfrIZxuz99SzHpmw==
+  dependencies:
+    "@material/typography" "^1.0.0"
+    classnames "^2.2.6"
+
 "@material/ripple@^0.41.0":
   version "0.41.0"
   resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.41.0.tgz#73dbb9bf0e1d72382926b39f2527c011e689dde2"
