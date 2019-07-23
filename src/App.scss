@@ -2,6 +2,8 @@
 @import "@material/react-top-app-bar/index.scss";
 @import "@material/react-material-icon/index.scss";
 
+$primary-color: #6200ee;
+
 .App {
   text-align: center;
 }
@@ -34,4 +36,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.text-2rem {
+  font-size: 2rem !important;
+}
+
+.text-primary {
+  color: $primary-color !important;
 }
