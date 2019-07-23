@@ -7,7 +7,7 @@ function PieChart(props) {
   return (
     <ReactMinimalPieChart
       animate
-      animationDuration={2000}
+      animationDuration={1000}
       animationEasing="linear"
       data={[{ value, color }]}
       label={({ data }) => {
