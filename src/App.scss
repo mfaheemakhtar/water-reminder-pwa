@@ -42,8 +42,24 @@ $primary-color: #6200ee;
   background-color: $primary-color !important;
 }
 
+// Water Container
+.glass {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  i {
+    font-size: 3rem;
+  }
+}
+
 .mb-0 {
   margin-bottom: 0 !important;
+}
+
+.my-4 {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .text-2rem {
