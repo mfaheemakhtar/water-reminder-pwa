@@ -38,6 +38,10 @@ $primary-color: #6200ee;
   }
 }
 
+.border-primary {
+  background-color: $primary-color !important;
+}
+
 .mb-0 {
   margin-bottom: 0 !important;
 }
