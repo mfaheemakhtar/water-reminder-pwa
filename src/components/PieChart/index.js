@@ -11,10 +11,10 @@ function PieChart(props) {
       animationEasing="linear"
       data={[{ value, color }]}
       label={({ data }) => {
-        return `${data[0].percentage}%`;
+        return `${data[0].value}%`;
       }}
       labelPosition={0}
-      lengthAngle={-360}
+      lengthAngle={360}
       lineWidth={5}
       radius={30}
       startAngle={180}
