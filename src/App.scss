@@ -46,10 +46,19 @@ $primary-color: #6200ee;
 .glass {
   align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 
-  i {
-    font-size: 3rem;
+  button {
+    min-height: 5rem;
+
+    .mdc-button__icon {
+      font-size: 3rem;
+      height: 100%;
+      margin: 0;
+      vertical-align: middle;
+      width: 100%;
+    }
   }
 }
 
