@@ -5,6 +5,7 @@ import Drawer from "./components/Drawer";
 import List from "./components/List";
 import TopNavBar from "./components/TopNavBar";
 import MENU from "./constants/menu";
+import Home from "./routes/Home";
 
 class App extends Component {
   state = {
@@ -27,7 +28,9 @@ class App extends Component {
 
         <TopNavBar onMenuClick={this.toggleMenu} title="Water Reminder App" />
 
-        <TopAppBarFixedAdjust>App content here</TopAppBarFixedAdjust>
+        <TopAppBarFixedAdjust>
+          <Home />
+        </TopAppBarFixedAdjust>
       </div>
     );
   }

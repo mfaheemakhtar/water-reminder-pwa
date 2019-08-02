@@ -1182,6 +1182,11 @@
     "@material/theme" "^0.41.0"
     "@material/typography" "^0.41.0"
 
+"@material/layout-grid@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@material/layout-grid/-/layout-grid-0.41.0.tgz#2e7d3be76313e0684d573b10c2c6a88b3230d251"
+  integrity sha512-Sa5RNoTGgfIojqJ9E94p7/k11V6q/tGk7HwKi4AQNAPjxield0zcl3G/SbsSb8YSHoK+D+7OXDN+n11x6EqF7g==
+
 "@material/list@^1.0.0":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@material/list/-/list-1.1.1.tgz#296ed85ae3585af1749462e5bafd617d5675e85e"
@@ -1252,6 +1257,14 @@
     classnames "^2.2.6"
     focus-trap "^5.0.0"
 
+"@material/react-layout-grid@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@material/react-layout-grid/-/react-layout-grid-0.15.0.tgz#598cdebc4c8b311a7132529327b70bc347c41a5f"
+  integrity sha512-vxQSwLddotxhzoq1gFmlvqvfsc1323dcweCAKOEurNKV1cXpgR87D3BZrugROG5a0n0tTexejmI63RpHX2CzJw==
+  dependencies:
+    "@material/layout-grid" "^0.41.0"
+    classnames "^2.2.6"
+
 "@material/react-list@^0.14.1":
   version "0.14.1"
   resolved "https://registry.yarnpkg.com/@material/react-list/-/react-list-0.14.1.tgz#500ded17bd735e14156dd53643ef082be034c33f"
@@ -1300,6 +1313,14 @@
   dependencies:
     "@material/react-ripple" "^0.14.1"
     "@material/top-app-bar" "^1.1.0"
+    classnames "^2.2.6"
+
+"@material/react-typography@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@material/react-typography/-/react-typography-0.15.0.tgz#7e6f36058a1b88a1d0995b600b64803b4dca4fbb"
+  integrity sha512-W7junmTxVxxQ5sMSW6YMhF4ZgLmHOAqEa88PCmmioMD8lOX0Bt5a0DY1DiBwbxUqZps/vwqfrIZxuz99SzHpmw==
+  dependencies:
+    "@material/typography" "^1.0.0"
     classnames "^2.2.6"
 
 "@material/ripple@^0.41.0":
@@ -8249,7 +8270,7 @@ prompts@^2.0.1:
     kleur "^3.0.2"
     sisteransi "^1.0.0"
 
-prop-types@^15.6.2:
+prop-types@^15.5.7, prop-types@^15.6.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -8474,6 +8495,13 @@ react-is@^16.8.1, react-is@^16.8.4:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
+
+react-minimal-pie-chart@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/react-minimal-pie-chart/-/react-minimal-pie-chart-4.2.0.tgz#7f1983cc4ec4b601154fba691385714b347b011c"
+  integrity sha512-R9ROeE13tmR+R9k2TY7rkhu/YsTCOJI7PHRLpCIiKPXyGAfqxzSxZqBL2Qg6EqV2/Zqv4JJsDp8WPHS1qV9ecA==
+  dependencies:
+    prop-types "^15.5.7"
 
 react-scripts@3.0.1:
   version "3.0.1"

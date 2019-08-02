@@ -2,6 +2,8 @@
 @import "@material/react-top-app-bar/index.scss";
 @import "@material/react-material-icon/index.scss";
 
+$primary-color: #6200ee;
+
 .App {
   text-align: center;
 }
@@ -34,4 +36,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.border-primary {
+  background-color: $primary-color !important;
+}
+
+// Water Container
+.glass {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  button {
+    min-height: 5rem;
+
+    .mdc-button__icon {
+      font-size: 3rem;
+      height: 100%;
+      margin: 0;
+      vertical-align: middle;
+      width: 100%;
+    }
+  }
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.my-4 {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.text-2rem {
+  font-size: 2rem !important;
+}
+
+.text-primary {
+  color: $primary-color !important;
 }
